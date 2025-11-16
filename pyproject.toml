@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "songfetch"
-version = "1.0.0"
+version = "1.0.3"
 description = "A CLI tool that displays current song information in the terminal"
 readme = "README.md"
 license = { text = "GPL-2.0" }
@@ -23,8 +23,8 @@ classifiers = [
 songfetch = "songfetch.main:main"
 
 [project.urls]
-Homepage = "https://github.com/fwtwoo/songfetch"
-Repository = "https://github.com/fwtwoo/songfetch"
+Homepage = "https://github.com/ekrlstd/songfetch"
+Repository = "https://github.com/ekrlstd/songfetch"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

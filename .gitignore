@@ -12,3 +12,11 @@ venv/
 
 # Python cache
 __pycache__/
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
