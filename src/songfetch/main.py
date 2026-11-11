@@ -22,7 +22,7 @@ def progress_bar():
     # Calculate percentage
     pos = get_position()
     dur = get_duration()
-    if pos == 0 | dur == 0:
+    if pos == 0 or dur == 0:
         percentage = 0
     else:
         percentage = pos / dur
